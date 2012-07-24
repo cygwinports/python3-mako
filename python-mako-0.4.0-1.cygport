@@ -1,7 +1,0 @@
-ORIG_PN="Mako"
-inherit python3-distutils
-
-HOMEPAGE="http://www.makotemplates.org/"
-
-python3_mako_CONTENTS=${PYTHON3_SITELIB#/}" usr/share/doc/"
-PKG_IGNORE="usr/bin/"

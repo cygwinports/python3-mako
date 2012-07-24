@@ -1,0 +1,16 @@
+ORIG_PN="Mako"
+inherit python3-distutils
+
+CATEGORY="Python"
+SUMMARY="Py3K template library"
+DESCRIPTION="Mako is a template library written in Python. It provides a
+familiar, non-XML syntax which compiles into Python modules for maximum
+performance. Conceptually, Mako is an embedded Python (i.e. Python
+Server Page) language, which refines the familiar ideas of componentized
+layout and inheritance to produce one of the most straightforward and
+flexible models available, while also maintaining close ties to Python
+calling and scoping semantics."
+HOMEPAGE="http://www.makotemplates.org/"
+
+python3_mako_CONTENTS=${PYTHON3_SITELIB#/}" usr/share/doc/"
+PKG_IGNORE="usr/bin/"
