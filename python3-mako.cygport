@@ -2,7 +2,7 @@ ORIG_PN="Mako"
 inherit python3-distutils
 
 NAME="python3-mako"
-VERSION=0.7.2
+VERSION=1.0.1
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K template library"
